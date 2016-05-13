@@ -1,0 +1,119 @@
+/*
+Name: 			styles.css
+Written by: 	Blackbook Elements - (http://www.blackbookelements.com)
+Version: 		1.0
+*/
+
+* {
+	margin: 0;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.page-wrap {
+	min-height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+.container {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: none;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.title {
+	font-size: 40pt;
+	font-weight: 900;
+	position: absolute;
+	text-align: center;
+	top: 10vh;
+	width: 100%;
+}
+
+.client {
+	color: black;
+	position: fixed;
+	left: 20vh;
+	text-align: center;
+	top: 40vh;
+	z-index: 10;
+}
+
+.server {
+	color: black;
+	position: fixed;
+	right: 20vh;
+	text-align: center;
+	top: 40vh;
+	z-index: 10;
+}
+
+.dns {
+	background-color: lightblue;
+	height: 100vh;
+	padding: 0;
+	position: relative;
+	margin: 0;
+	width: 100%;
+}
+
+.dns h1 {
+	font-size: 30pt;
+	position: absolute;
+	text-align: center;
+	top: 65vh;
+	width: 100%;
+}
+
+.dns p {
+	font-size: 20pt;
+	padding: 0 0 0 45vh;
+	position: absolute;
+	top: 72vh;
+	width: 100vh;
+	z-index: 9;
+}
+
+.ftp {
+	background-color: lightgreen;
+	height: 100vh;
+	padding: 0;
+	position: relative;
+	margin: 0;
+	width: 100%;
+}
+
+.sftp {
+	background-color: red;
+	height: 100vh;
+	padding: 0;
+	position: relative;
+	margin: 0;
+	width: 100%;
+}
+
+.smtp {
+	background-color: purple;
+	height: 100vh;
+	padding: 0;
+	position: relative;
+	margin: 0;
+	width: 100%;
+}
