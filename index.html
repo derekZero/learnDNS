@@ -37,21 +37,35 @@ Version: 		1.0
 		<div class="container">
 			<section class="dns">
 				<div class="title">Do I know DNS?</div>
+				<div class="clientRule"></div>
+				<div class="serverRule"></div>
 				<div class="client">
 					<i class="fa fa-sitemap fa-5x" aria-hidden="true"></i><br>
 					<h3>client</h3>
 				</div>
 				<h1>Domain Name System</h1><br>
-				<p>DNS covers the relationship between a client (browser) and a client (server). Specifically, cPanel users encounter DNS issues most frequently upon intial setup of their website.</p>
+				<p>DNS covers the relationship between a client (browser) and a client (server) to establish the name of a website. Specifically, cPanel users encounter DNS issues most frequently upon intial setup of their website.</p>
 				<div class="server">
 					<i class="fa fa-server fa-5x" aria-hidden="true"></i><br>
 					<h3>server</h3>
 				</div>
 			</section>
-			<section class="ftp"></section>
-			<section class="sftp"></section>
-			<section class="smtp"></section>
-			<section class="troubleshooting"></section>
+			<section class="names">
+				<h1>CNAME Record or A Record?</h1>
+				<p>C[anonical] Name Record is used to a map a name from another name. More commonly used is the A[ddress] Record, which maps a name to one or more IP addresses when the IP are known and stable.
+			</section>
+			<section class="ftp">
+				<h1>What's FTP?</h1>
+				<p>File Transfer Protocol is the most standard network protocol used to move files between a server and a client. It's had some sisters and cousins since then, which brings us too..</p>
+			</section>
+			<section class="sftp">
+				<h1>Did you just add a letter?</h1>
+				<p>Secure File Transfer Protocol's most identifying feature is it's use of SSH (Secure Shell), a client-server model. It ensures that the data transmission occurs over a secure connection and is verified on the server. It's most useful for managing information on a remote computer. Frequently udpated websites could benefit from SFTP.</p>
+			</section>
+			<section class="smtp">
+				<h1>Secure Mail</h1>
+				<p>Simple Mail Transfer Protocol has none of the pop or flavor of POP3 or IMAP as it can't receive your mail, but it's enough to relay. Which is probably all you'll need your website to do unless you plan to compete with Google and Yahoo.</p>
+			</section>
 		</div>
 	</div>
 	<footer>

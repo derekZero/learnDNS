@@ -56,6 +56,16 @@ body {
 	z-index: 10;
 }
 
+.clientRule {
+	border-right: 1vh dotted #ff4d4d;
+	height: 30vh;
+	left: 25vh;
+	position: absolute;
+	top: 55vh;
+	width: 0.1vh;
+	z-index: 9;
+}
+
 .server {
 	color: black;
 	position: fixed;
@@ -65,8 +75,17 @@ body {
 	z-index: 10;
 }
 
+.serverRule {
+	border-right: 1vh dotted #ff4d4d;
+	height: 380vh;
+	right: 25vh;
+	position: absolute;
+	top: 55vh;
+	width: 0.1vh;
+	z-index: 9;
+}
+
 .dns {
-	background-color: lightblue;
 	height: 100vh;
 	padding: 0;
 	position: relative;
@@ -91,17 +110,59 @@ body {
 	z-index: 9;
 }
 
-.ftp {
-	background-color: lightgreen;
+.names {
 	height: 100vh;
 	padding: 0;
 	position: relative;
 	margin: 0;
 	width: 100%;
+}
+
+.names h1 {
+	font-size: 30pt;
+	opacity: 0.5;
+	position: absolute;
+	text-align: center;
+	top: 65vh;
+	width: 100%;
+}
+
+.names p {
+	font-size: 20pt;
+	opacity: 0.5;
+	padding: 0 0 0 45vh;
+	position: absolute;
+	top: 72vh;
+	width: 100vh;
+	z-index: 9;
+}
+
+.ftp {
+	height: 100vh;
+	padding: 0;
+	position: relative;
+	margin: 0;
+	width: 100%;
+}
+
+.ftp h1 {
+	font-size: 30pt;
+	position: absolute;
+	text-align: center;
+	top: 65vh;
+	width: 100%;
+}
+
+.ftp p {
+	font-size: 20pt;
+	padding: 0 0 0 45vh;
+	position: absolute;
+	top: 72vh;
+	width: 100vh;
+	z-index: 9;
 }
 
 .sftp {
-	background-color: red;
 	height: 100vh;
 	padding: 0;
 	position: relative;
@@ -109,11 +170,44 @@ body {
 	width: 100%;
 }
 
+.sftp h1 {
+	font-size: 30pt;
+	position: absolute;
+	text-align: center;
+	top: 65vh;
+	width: 100%;
+}
+
+.sftp p {
+	font-size: 20pt;
+	padding: 0 0 0 45vh;
+	position: absolute;
+	top: 72vh;
+	width: 100vh;
+	z-index: 9;
+}
+
 .smtp {
-	background-color: purple;
 	height: 100vh;
 	padding: 0;
 	position: relative;
 	margin: 0;
 	width: 100%;
+}
+
+.smtp h1 {
+	font-size: 30pt;
+	position: absolute;
+	text-align: center;
+	top: 65vh;
+	width: 100%;
+}
+
+.smtp p {
+	font-size: 20pt;
+	padding: 0 0 0 45vh;
+	position: absolute;
+	top: 72vh;
+	width: 100vh;
+	z-index: 9;
 }
